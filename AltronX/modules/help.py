@@ -18,7 +18,7 @@ PythonHelp = f"★ 𝗦 𝛖 𝛅 ֟፝ᥱ 𝛆 𝛒 𝗕𝗢𝗧 𝗛𝗘𝗟�
 async def help(event):
     if event.sender_id in SUDO_USERS:
        await event.client.send_file(event.chat_id,
-                               "https://telegra.ph/file/05522e13c97752efe5e75.png",
+                               "https://files.catbox.moe/nob5yp.jpg",
                                   caption=PythonHelp,
                                   buttons=[
            [
