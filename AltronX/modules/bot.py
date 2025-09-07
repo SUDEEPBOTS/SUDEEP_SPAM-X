@@ -20,10 +20,10 @@ from telethon import events
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"» ™°‌𝗦 𝗧 𝗥 𝗔 𝗡 𝗚 𝗘 𝗥", parse_mode=None, link_preview=None)
+        altron = await e.reply(f"» ™°‌ᯓ𓂃❛ 𝗦 𝛖 𝛅 ֟፝ᥱ 𝛆 𝛒 </𝟑 𝁘ໍ𝀛𓂃🍷", parse_mode=None, link_preview=None)
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"💫🥀 🫧 🇸𝗧 𝗥 𝗔 𝗡 𝗚 𝗘 𝗥\n» {mp} 𝙼𝚂")
+        await altron.edit(f"💫🥀 🫧 🇸⎯꯭‌ ༓‌🗡⃪꯭꯭‌𝐍꯭𝛆‌꯭፝‌𝐗\n» {mp} 𝙼𝚂")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
