@@ -8,11 +8,11 @@ PythonButton = [
         Button.inline("𝗛𝗘𝗟𝗣 𝗔𝗡𝗗 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦", data="help_back")
         ],
         [
-        Button.url("𝗨𝗣𝗗𝗔𝗧𝗘𝗦", "https://t.me/ITSZSHUKLA"),
-        Button.url("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", "https://t.me/MASTIWITHFRIENDSXD")
+        Button.url("𝗨𝗣𝗗𝗔𝗧𝗘𝗦", "https://t.me/NEX_BANSSS"),
+        Button.url("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", "https://t.me/hartsteeler")
         ],
         [
-        Button.url("𝗥𝗘𝗣𝗢", "https://github.com/itzshukla/STRANGER-SPAM-X/fork")
+        Button.url("𝗥𝗘𝗣𝗢", "https://t.me/hartsteeler")
         ]
         ]
 
@@ -34,11 +34,11 @@ async def start(event):
         BotName = AltBot.first_name
         BotId = AltBot.id
         TEXT = f"**𝗛𝗘𝗬 [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\n𝗜 𝗔𝗠  [{BotName}](tg://user?id={BotId})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **✦ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗗 𝗕𝗬 :~ [𝗦𝗛𝗔𝗦𝗛𝗔𝗡𝗞](https://t.me/SHASHANKDEVS)**\n\n"
-        TEXT += f"» **𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗦𝗣𝗔𝗠 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :** `3.2`\n"
+        TEXT += f"» **✦ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗗 𝗕𝗬 :~ [ᯓ𓂃❛ 𝗦 𝛖 𝛅 ֟፝ᥱ 𝛆 𝛒 </𝟑 𝁘ໍ𝀛𓂃🍷](http://T.me/heartstealer_x)**\n\n"
+        TEXT += f"» **⎯꯭‌ ༓‌🗡⃪꯭꯭‌𝐍꯭𝛆‌꯭፝‌𝐗༭‌ 𝗦𝗣𝗔𝗠 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :** `3.2`\n"
         TEXT += f"» **𝗧𝗘𝗟𝗘𝗧𝗛𝗢𝗡 𝗩𝗘𝗥𝗦𝗜𝗢𝗡:** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                 event.chat_id,
-                "https://telegra.ph/file/05522e13c97752efe5e75.png",
+                "https://files.catbox.moe/u703ho.mp4",
                 caption=TEXT, 
                 buttons=PythonButton)
